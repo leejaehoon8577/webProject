@@ -10,8 +10,8 @@ public class DetailController implements Controller {
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		System.out.println("Index Controller");
-		ModelAndView mv = new ModelAndView("notice/detail");
+		System.out.println("Detail Controller");
+		ModelAndView mv = new ModelAndView("notice.detail");
 //		mv.setViewName("/WEB-INF/view/notice/detail.jsp");
 		return mv;
 	}

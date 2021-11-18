@@ -10,9 +10,9 @@ public class ListController implements Controller {
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		System.out.println("Index Controller");
-		ModelAndView mv = new ModelAndView("notice/list");
-//		mv.setViewName("/WEB-INF/view/notice/list.jsp");
+		System.out.println("List Controller");
+		ModelAndView mv = new ModelAndView("notice.list");
+//		mv.setViewName("/WEB-INF/view/customer/notice/list.jsp");
 		return mv;
 	}
 
